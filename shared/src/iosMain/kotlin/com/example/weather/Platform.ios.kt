@@ -7,3 +7,4 @@ class IOSPlatform: Platform {
 }
 
 actual fun getPlatform(): Platform = IOSPlatform()
+actual fun getClientId(): String = "iOS Client Id"
