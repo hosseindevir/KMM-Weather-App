@@ -5,3 +5,4 @@ class AndroidPlatform : Platform {
 }
 
 actual fun getPlatform(): Platform = AndroidPlatform()
+actual fun getClientId(): String = "Android Client Id"
