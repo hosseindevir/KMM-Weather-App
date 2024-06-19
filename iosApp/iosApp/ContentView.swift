@@ -5,6 +5,7 @@ struct ContentView: View {
 	let greet = Greeting().greet()
 
 	var body: some View {
+        let _ = NapierHelperKt.doSomething()
         Text(Platform_iosKt.getClientId())
 	}
 }
